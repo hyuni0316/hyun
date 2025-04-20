@@ -201,6 +201,16 @@
   /* 원래 속성은 이미 기본 .chat-bubble에 적용했으므로 여기서는 필요 없음 */
 }
 
+
+/* 반응형 설정 */
+@media screen and (max-width: 768px) {
+  
+  /* 모바일 버전에서 말풍선 스타일 조정 */
+  .chat-bubble {
+    top: -40px; /* 위 여백 증가 */
+  }
+}
+
 /* 반응형 설정 */
 @media screen and (max-width: 480px) {
   .agent-chat-container {
@@ -208,6 +218,16 @@
     height: 70%;
     bottom: 10px;
     right: 5%;
+  }
+  
+  /* 모바일 버전에서 말풍선 스타일 조정 */
+  .chat-bubble {
+    top: -30px; /* 위 여백 증가 */
+    padding: 6px 10px; /* 패딩 감소 */
+    font-size: 8px; /* 글자 크기 감소 */
+    max-width: 100%; /* 최대 너비 제한 */
+    white-space: normal; /* 텍스트 자동 줄바꿈 */
+    text-align: center; /* 텍스트 중앙 정렬 */
   }
 }
 

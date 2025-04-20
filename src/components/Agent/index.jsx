@@ -130,7 +130,7 @@ const CACHED_RESPONSES = {
   },
   en: {
     // Greetings
-    "hello":          "Hello! How can I help you?",
+    "hello":          "Hello! I'm an AI agent representing Hyun Lee. How can I help you?",
     "hi":             "Hi there! What information are you looking for?",
 
     // Background/Career
@@ -317,8 +317,8 @@ const Agent = ({ isOpen, onClose }) => {
     const isLanguageSwitched = checkLanguageSwitch(currentInput);
     if (isLanguageSwitched) {
       const welcomeMessage = language === 'en' 
-        ? "Switched to English. How can I help you?" 
-        : "한국어로 전환했습니다. 무엇을 도와드릴까요?";
+        ? "I'm an AI agent representing Hyun Lee. How can I help you?" 
+        : "무엇을 도와드릴까요?";
         
       setTimeout(() => {
         setMessages(prev => [...prev, { 

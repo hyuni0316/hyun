@@ -5,13 +5,13 @@ import { FaPhone, FaEnvelope, FaGithub, FaLinkedin, FaInstagram } from 'react-ic
 
 const Contact = () => {
   const contactInfo = [
-    {
-      id: 1,
-      type: 'Phone',
-      value: '+82 10-8914-8469',
-      icon: <FaPhone className="contact-icon" />,
-      link: 'tel: 010-8914-8469'
-    },
+    // {
+    //   id: 1,
+    //   type: 'Phone',
+    //   value: '+82 10-8914-8469',
+    //   icon: <FaPhone className="contact-icon" />,
+    //   link: 'tel: 010-8914-8469'
+    // },
     {
       id: 2,
       type: 'Email',

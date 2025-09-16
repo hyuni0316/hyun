@@ -106,14 +106,14 @@ const About = () => {
               <div className="about-content">
                 <div className="about-text">
                   <p>
-                   Hi, I'm Hyun Lee, a Master's student at <a href="https://reflect9.github.io/ael/" target="_blank" rel="noopener noreferrer" className="highlight-text">AI Experience Lab</a>. 
-                   My research explores <span className="highlight-text">human–AI interaction</span>, with a focus on designing <span className="highlight-text">LLM‑based agents</span>. 
+                   Hi, I'm Hyun Lee, a Master's student at <a href="https://ai-experience-lab.github.io/" target="_blank" rel="noopener noreferrer" className="highlight-text">AI Experience Lab</a>. 
+                   My research explores <span className="highlight-text">human–AI interaction</span>, with a focus on designing <span className="highlight-text">LLM‑based aggent systems</span>. 
                    I'm passionate about understanding how people perceive and interact with AI, 
                    and I strive to build user-centered AI systems.
                   </p>
                   <p>
                   With a background in computer science, 
-                  I love building web applications and using data analysis and visualization to bring ideas to life through code.
+                  I love building web applications and using data analysis to bring ideas to life through code.
                    I've also honed my creative problem‑solving skills and my UI/UX design skills through 
                    my industrial design studies.
                   </p>
@@ -126,6 +126,13 @@ const About = () => {
         <div className="news-section">
           <h3>Recent News</h3>
           <div className="education-timeline">
+
+          <div className="education-item">
+              <div className="education-date">2025.10.20</div>
+              <div className="education-content">
+                <div className="education-details">Will attend CSCW 2025 in Bergen, Norway.</div>
+              </div>
+            </div>
 
             <div className="education-item">
               <div className="education-date">2025.04.28</div>
@@ -196,7 +203,7 @@ const About = () => {
               <div className="education-date">2024.09 - 2026.08</div>
               <div className="education-content">
                 <div className="education-type">Master's Candidate</div>
-                <div className="education-details"><a href="https://reflect9.github.io/ael/" target="_blank" rel="noopener noreferrer">AI Experience Lab</a> - <a href="https://id.kaist.ac.kr/" target="_blank" rel="noopener noreferrer">Industrial Design</a> - <a href="https://www.kaist.ac.kr/kr/" target="_blank" rel="noopener noreferrer">KAIST</a></div>
+                <div className="education-details"><a href="https://ai-experience-lab.github.io/" target="_blank" rel="noopener noreferrer">AI Experience Lab</a> - <a href="https://id.kaist.ac.kr/" target="_blank" rel="noopener noreferrer">Industrial Design</a> - <a href="https://www.kaist.ac.kr/kr/" target="_blank" rel="noopener noreferrer">KAIST</a></div>
               </div>
             </div>
             

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <p>© {new Date().getFullYear()} Hyun Lee. All rights reserved.</p>
-        <p>Last updated: 2025.05.12</p>
+        <p>Last updated: 2025.09.16</p>
       </div>
     </footer>
   );

@@ -86,7 +86,7 @@ const Projects = () => {
               <h2 className="modal-title">{selectedProject.title}</h2>
               
               {selectedProject.course && (
-                <p className="modal-course">Course: {selectedProject.course}</p>
+                <p className="modal-course">{selectedProject.course}</p>
               )}
               
               <div className="modal-tech">

@@ -24,9 +24,9 @@ const Publications = () => {
     {
       id: 2,
       // title: 'SCAS: Synthetic Customer Agent System for Enterprise Utilizing Large-Scale In-depth Lifestyle Survey',
-      title: 'Paper about synthetic customer agent system',
+      title: 'Paper about LLM-basedagent system',
       // authors: 'Hyun Seung Moon (co‑first author), <strong>Hyun Lee (co‑first author)</strong>, Jinwoo Jeong, Kunwoo Lee, Seowon Lee, Jin Jeong, Seon Gyeom Kim, JaeYoung Choi, Minsun Kim, Ji-Dong Yim, Tak Yeon Lee',
-      conference: 'Submitted to UIST 2025',
+      conference: 'Will be Submitted to IUI 2026',
       // link: 'https://example.com/publication2',
       // youtube: 'https://youtu.be/7noxgP8lDq4',
       // image: SCAS,

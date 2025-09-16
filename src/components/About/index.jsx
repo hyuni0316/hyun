@@ -126,6 +126,14 @@ const About = () => {
         <div className="news-section">
           <h3>Recent News</h3>
           <div className="education-timeline">
+
+            <div className="education-item">
+              <div className="education-date">2025.04.28</div>
+              <div className="education-content">
+                <div className="education-details">Attended CHI 2025 in Yokohama, Japan.</div>
+              </div>
+            </div>
+
             <div className="education-item">
               <div className="education-date">2025.04.10</div>
               <div className="education-content">
@@ -140,15 +148,16 @@ const About = () => {
               </div>
             </div>
             
-            <div className="education-item">
-              <div className="education-date">2024.08.08</div>
-              <div className="education-content">
-                <div className="education-details">Presented an accepted paper at the IEEE IRI conference in San Jose.</div>
-              </div>
-            </div>
             
             {showMoreNews >= 1 && (
               <>
+              <div className="education-item">
+                <div className="education-date">2024.08.08</div>
+                <div className="education-content">
+                  <div className="education-details">Presented an accepted paper at the IEEE IRI conference in San Jose.</div>
+                </div>
+              </div>
+              
               <div className="education-item">
                 <div className="education-date">2024.06</div>
                 <div className="education-content">
